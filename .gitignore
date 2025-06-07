@@ -1,0 +1,68 @@
+## Build results
+bin/
+obj/
+out/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+# Uncomment if using NuGet locally
+# *.local.packages/
+
+## Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+*.sln.iml
+
+## ASP.NET
+appsettings.*.json
+appsettings.Development.json
+
+## Logs
+*.log
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Web Projects
+wwwroot/lib/
+node_modules/
+dist/
+bower_components/
+
+## Dotnet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+## ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+## Entity Framework
+Migrations/
+
+## Secrets
+secrets.json
+
+# Optional: Exclude environment-dependent files
+.env
+.env.*
+
