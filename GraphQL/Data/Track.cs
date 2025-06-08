@@ -10,5 +10,5 @@ public sealed class Track
         new List<Session>();
 
     [StringLength(200)]
-    public required string Name { get; init; }
+    public required string Name { get; set; }
 }

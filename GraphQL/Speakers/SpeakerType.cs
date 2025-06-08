@@ -2,7 +2,7 @@
 using GreenDonut.Data;
 using HotChocolate.Execution.Processing;
 
-namespace ConferencePlanner.GraphQL.Types;
+namespace ConferencePlanner.GraphQL.Speakers;
 
 [ObjectType<Speaker>]
 public static partial class SpeakerType
